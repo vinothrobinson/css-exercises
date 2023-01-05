@@ -1,0 +1,26 @@
+.odd {
+    background-color: rgb(253, 152, 179);
+    font-family: "Verdana", "DejaVu Sans" sans-serif;
+}
+
+#second {
+    color:rgb(29, 48, 255);
+    font-size: 36px;
+}
+
+/*
+To reduce repetitive code, it would have been better to create
+a class called "adjust-font-size" and used that to adjust the font
+size for the fourth element and third element since the font size
+is the same for both.
+*/
+
+.odd.third {
+    font-size: 24px;
+}
+
+#fourth {
+    background-color: rgb(59, 235, 112);
+    font-size: 24px;
+    font-weight: bold;
+}
